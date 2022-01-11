@@ -11,6 +11,7 @@
         android:theme="@style/Theme.LernEnglish">
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/NoAactionBarTheme"
             android:windowSoftInputMode="adjustResize"
             android:exported="true">
