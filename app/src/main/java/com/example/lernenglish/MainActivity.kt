@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
             //otworzenie nowego okna
             else{
                 val intent = Intent(this, Flashcard::class.java)
+
+                //zamiana na string
+                intent.putExtra(Constants.USER_NAME, et_name.text.toString())
                 startActivity(intent)
                 //zamknięcie okna
                 finish()

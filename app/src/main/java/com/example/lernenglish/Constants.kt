@@ -1,6 +1,8 @@
 package com.example.lernenglish
 
 object Constants {
+
+    const val USER_NAME: String = "user_name"
     fun getFlashcard():  ArrayList<Pictures>{
         val flashcardList = ArrayList<Pictures>()
 
@@ -21,7 +23,7 @@ object Constants {
 
         val flash3 = Pictures(3,
             R.drawable.bicycle, option = "Bicycle",
-            sentence = "I recently bought myself a new bicycle, it's very fast"
+            sentence = "I recently bought myself a new bicycle."
         )
         flashcardList.add(flash3)
 
